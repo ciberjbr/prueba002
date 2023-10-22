@@ -1,0 +1,24 @@
+Pasos para crear un repositorio local y sincronizarlo en remoto con github:
+
+1- creo una carpeta
+2- la abro con vscode
+3- creo un archivo cualquiera
+4- abro la carpeta con cmd
+5- ejecuto los siguientes comandos:
+git init
+git status
+git add .
+git commit -m "añado archivo inicial"
+git remote add origin "La url del repo remoto"
+
+git push -u origin master
+o bien
+git branch main
+git push -u origin main
+
+con la primera la rama master predeterminada
+será nuestra rama principal, y con la segunda
+creo la rama main y esa será nuestra principal
+
+Pasos para clonar un repositorio de github:
+
