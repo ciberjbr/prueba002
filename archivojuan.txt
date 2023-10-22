@@ -9,12 +9,19 @@ git init
 git status
 git add .
 git commit -m "añado archivo inicial"
-git remote add origin "La url del repo remoto"
 
-git push -u origin master
-o bien
-git branch main
+git branch -M main (así cambio la master por la main)
+git remote add origin "La url del repo remoto"
 git push -u origin main
+
+*(Esta es preferible porque la main está
+mas estandarizada que la master actualmente)
+
+o bien
+
+git remote add origin "La url del repo remoto"
+git push -u origin master
+
 
 con la primera la rama master predeterminada
 será nuestra rama principal, y con la segunda
